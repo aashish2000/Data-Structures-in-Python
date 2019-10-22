@@ -67,5 +67,5 @@ graph=addPath(7, 8, 7, graph)
 mst,distances=generateMST(graph,0)
 
 print(mst)
-print(distances)
+print(" ".join(map(str,distances)))
 
